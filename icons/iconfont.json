@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "376362",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6966942",
+      "name": "未选中",
+      "font_class": "weixuanzhong",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "6966951",
+      "name": "选中",
+      "font_class": "xuanzhong",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    }
+  ]
+}

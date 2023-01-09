@@ -1,0 +1,36 @@
+.todo_head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #1e90ff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
+}
+
+.todo_head > h1 {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: default;
+}
+.todo_head > input {
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+}
+.todo_head > button {
+    font-weight: 700;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.todo_head > button:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,41 @@
+.todo_doing > h1 {
+    margin: 0;
+    font-size: 27px;
+    cursor: default;
+}
+
+.todo_doing_list {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.todo_doing_list_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border-left: 4px solid #1e10ff;
+    border-bottom: 1px solid #ccc ;
+}
+.doing_item_left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.doing_item_left > i {
+    font-size: 22px;
+}
+.doing_item_left > span {
+    display: inline-block;
+    max-width: 400px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.doing_item_right {
+    font-size: 22px !important;
+    cursor: pointer;
+}
